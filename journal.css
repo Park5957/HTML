@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "Emblema One";
+    src: url("http://wickedlysmart.com/hfhtmlcss/journal/EmblemaOne-Regular.woff"),
+         url("http://wickedlysmart.com/hfhtmlcss/journal/EmblemaOne-Regular.ttf");
+}
+
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+    background-color: silver;
+   }
+
+   h1, h2 {
+    border-bottom: thin dotted #888888;
+    /* text-decoration: underline; */
+   }
+   
+   h1 {
+    font-family: "Emblema One", sans-serif;
+    font-size: 220%;
+    background-color: rgb(80%, 40%, 0%);
+    
+   }
+   h2 {
+    font-size: 130%;
+    font-weight: normal;
+    background-color: rgb(204, 102, 0);
+    }
+
+    blockquote {
+        margin-left: 1%;
+        margin-right: 90%;
+        font-style: italic;
+        background-color: #b817e0;
+    }
+
+    em{
+        text-decoration: line-through #888888;
+    }
+
+    /* em {
+        text-decoration: underline overline;
+       }
+
+
+    em {
+        text-decoration: none;
+    } */
+       
