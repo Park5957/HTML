@@ -49,4 +49,67 @@ p.blueberry { color:blue; }
  #footer {
     color: red;
  }
+
+
+ #elixirs {
+    border-width: thin;
+    border-style: solid; 
+    border-color: #007e7e;
+    width: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+
+    text-align: center;
+
+    background-image: url(images/cocktail.gif);
+    background-repeat: repeat-x;
+
+    line-height: 2;
+    float:right
+
+    
+   }
+   
+   #elixirs h2 {
+    color: rgb(31, 27, 27);
+   }
+   #elixirs h3 { 
+    color: #d12c47;
+   }
+
+
+   .cd {
+    font-style: italic;
+   }
+   .artist {
+    font-weight: bold;
+   }
+
+   a:link { 
+ color: green;
+}
+a:visited { 
+ color: red;
+}
+a:hover { 
+ color: yellow;
+}
+
+#elixirs a:link { 
+    color: #007e7e;
+   }
+   #elixirs a:visited { 
+    color: #333333;
+   }
+   #elixirs a:hover { 
+    background: #f88396; 
+    color: #0d5353;
+   }
+
+   
+
+
+   
    
